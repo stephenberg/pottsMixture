@@ -1,0 +1,551 @@
+[
+    {
+        "definitions" : [
+            {
+                "column" : 12,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/MultinomialMixture.cpp",
+                "kind" : 6,
+                "line" : 8,
+                "name" : "estimateMixture(Eigen::MatrixXi, int, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@estimateMixture#$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#I#I#I#d#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/MultinomialMixture.cpp",
+                "kind" : 6,
+                "line" : 19,
+                "name" : "estimateMixtureWithErrors(Eigen::MatrixXi, Eigen::MatrixXi, int, int, int, double)",
+                "parent_name" : "",
+                "usr" : "c:@F@estimateMixtureWithErrors#$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#S0_#I#I#I#d#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/MultinomialMixture.cpp",
+                "kind" : 6,
+                "line" : 31,
+                "name" : "estimateInitializedMixture(Eigen::MatrixXi, int, int, int, double, Eigen::MatrixXd, Eigen::VectorXd)",
+                "parent_name" : "",
+                "usr" : "c:@F@estimateInitializedMixture#$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#I#I#I#d#$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#$@N@Eigen@C@Matrix>#d#VI-1#VI1#VI0#VI-1#VI1#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/MultinomialMixture.cpp",
+                "kind" : 6,
+                "line" : 46,
+                "name" : "estimateInitializedMixturewithErrors(Eigen::MatrixXi, Eigen::MatrixXi, int, int, int, double, Eigen::MatrixXd, Eigen::VectorXd)",
+                "parent_name" : "",
+                "usr" : "c:@F@estimateInitializedMixturewithErrors#$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#S0_#I#I#I#d#$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#$@N@Eigen@C@Matrix>#d#VI-1#VI1#VI0#VI-1#VI1#"
+            }
+        ],
+        "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/MultinomialMixture.cpp",
+        "file_last_write" : 1527820095
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/graph.h",
+                "kind" : 8,
+                "line" : 7,
+                "name" : "intMat",
+                "parent_name" : "",
+                "usr" : "c:graph.h@108@T@intMat"
+            },
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/graph.h",
+                "kind" : 8,
+                "line" : 8,
+                "name" : "intVec",
+                "parent_name" : "",
+                "usr" : "c:graph.h@141@T@intVec"
+            },
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/graph.h",
+                "kind" : 8,
+                "line" : 9,
+                "name" : "matrix",
+                "parent_name" : "",
+                "usr" : "c:graph.h@174@T@matrix"
+            },
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/graph.h",
+                "kind" : 8,
+                "line" : 10,
+                "name" : "vec",
+                "parent_name" : "",
+                "usr" : "c:graph.h@207@T@vec"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/graph.h",
+                "kind" : 2,
+                "line" : 12,
+                "name" : "graph",
+                "parent_name" : "",
+                "usr" : "c:@C@graph"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/graph.h",
+                "kind" : 7,
+                "line" : 35,
+                "name" : "getNeighbor(int, int)",
+                "parent_name" : "graph",
+                "usr" : "c:@C@graph@F@getNeighbor#I#I#"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/graph.h",
+                "kind" : 7,
+                "line" : 41,
+                "name" : "nNeighbors(int)",
+                "parent_name" : "graph",
+                "usr" : "c:@C@graph@F@nNeighbors#I#"
+            }
+        ],
+        "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/graph.h",
+        "file_last_write" : 1525993258
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 30,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsFunctions.cpp",
+                "kind" : 6,
+                "line" : 12,
+                "name" : "gibbsSample(int, Eigen::MatrixXi, Eigen::VectorXi, Eigen::VectorXi, int, int, bool, bool, Eigen::MatrixXd, Eigen::MatrixXd)",
+                "parent_name" : "",
+                "usr" : "c:@F@gibbsSample#I#$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#S1_#I#I#b#b#$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#S2_#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsFunctions.cpp",
+                "kind" : 6,
+                "line" : 46,
+                "name" : "EMSA(Eigen::MatrixXi, int, Eigen::MatrixXi, Eigen::VectorXi, Eigen::VectorXi, int, int, int, int, bool, double, double, bool, bool)",
+                "parent_name" : "",
+                "usr" : "c:@F@EMSA#$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#I#S0_#$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#S1_#I#I#I#I#b#d#d#b#b#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsFunctions.cpp",
+                "kind" : 6,
+                "line" : 74,
+                "name" : "initializedEMSA(Eigen::MatrixXi, int, Eigen::MatrixXi, Eigen::VectorXi, Eigen::VectorXi, int, int, int, int, bool, double, double, bool, bool, Eigen::MatrixXd, Eigen::MatrixXd, Eigen::MatrixXd)",
+                "parent_name" : "",
+                "usr" : "c:@F@initializedEMSA#$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#I#S0_#$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#S1_#I#I#I#I#b#d#d#b#b#$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#S2_#S2_#"
+            },
+            {
+                "column" : 12,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsFunctions.cpp",
+                "kind" : 6,
+                "line" : 110,
+                "name" : "cv_posteriorPredictive(Eigen::MatrixXi, Eigen::MatrixXi, Eigen::MatrixXi, Eigen::VectorXi, Eigen::VectorXi, int, int, int, Eigen::MatrixXd, Eigen::MatrixXd, Eigen::MatrixXd)",
+                "parent_name" : "",
+                "usr" : "c:@F@cv_posteriorPredictive#$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#S0_#S0_#$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#S1_#I#I#I#$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#S2_#S2_#"
+            }
+        ],
+        "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsFunctions.cpp",
+        "file_last_write" : 1526778095
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 7,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 2,
+                "line" : 7,
+                "name" : "pottsMLE",
+                "parent_name" : "",
+                "usr" : "c:@C@pottsMLE"
+            },
+            {
+                "column" : 15,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 55,
+                "name" : "EM_SA(int, int, int, double, bool, bool, bool)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@EM_SA#I#I#I#d#b#b#b#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 144,
+                "name" : "updateEtaParameter(intVec &, intVec &, bool, double, int, int, matrix &)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@updateEtaParameter#&$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#S0_#b#d#I#I#&$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 171,
+                "name" : "updateMuParameterEM(intVec &, matrix &, int, int)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@updateMuParameterEM#&$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#&$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#I#I#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 180,
+                "name" : "updateMuParameterEM_shortStep(intVec &, int, int)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@updateMuParameterEM_shortStep#&$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#I#I#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 192,
+                "name" : "updateMuParameterSG(intVec &, double, int, int, bool)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@updateMuParameterSG#&$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#d#I#I#b#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 211,
+                "name" : "logSumExp(vec &)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@logSumExp#&$@N@Eigen@C@Matrix>#d#VI-1#VI1#VI0#VI-1#VI1#"
+            },
+            {
+                "column" : 14,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 225,
+                "name" : "crossValidate(intMat &, int, int)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@crossValidate#&$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#I#I#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 347,
+                "name" : "computePY_Z(intMat &, intVec &)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@computePY_Z#&$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#&$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 356,
+                "name" : "marginalIndependenceLoglikelihood(intMat &)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@marginalIndependenceLoglikelihood#&$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 374,
+                "name" : "conditionalIndependenceLoglikelihood(intMat &)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@conditionalIndependenceLoglikelihood#&$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 397,
+                "name" : "computeLogConditionalProbability_i(int, intMat &, intVec &)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@computeLogConditionalProbability_i#I#&$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#&$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+                "kind" : 7,
+                "line" : 405,
+                "name" : "logisticDensityGradient(matrix, double)",
+                "parent_name" : "pottsMLE",
+                "usr" : "c:@C@pottsMLE@F@logisticDensityGradient#$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#d#"
+            }
+        ],
+        "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMLE.h",
+        "file_last_write" : 1528998336
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 8,
+                "line" : 8,
+                "name" : "intMat",
+                "parent_name" : "",
+                "usr" : "c:pottsMultinomial.h@121@T@intMat"
+            },
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 8,
+                "line" : 9,
+                "name" : "intVec",
+                "parent_name" : "",
+                "usr" : "c:pottsMultinomial.h@154@T@intVec"
+            },
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 8,
+                "line" : 10,
+                "name" : "matrix",
+                "parent_name" : "",
+                "usr" : "c:pottsMultinomial.h@187@T@matrix"
+            },
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 8,
+                "line" : 11,
+                "name" : "vec",
+                "parent_name" : "",
+                "usr" : "c:pottsMultinomial.h@220@T@vec"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 2,
+                "line" : 15,
+                "name" : "MultinomialMixture",
+                "parent_name" : "",
+                "usr" : "c:@C@MultinomialMixture"
+            },
+            {
+                "column" : 31,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 121,
+                "name" : "getYValues(int)",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@getYValues#I#"
+            },
+            {
+                "column" : 31,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 128,
+                "name" : "getYCounts(int)",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@getYCounts#I#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 136,
+                "name" : "log_pYandZ(int, int)",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@log_pYandZ#I#I#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 152,
+                "name" : "computeCondField",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@computeCondField#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 160,
+                "name" : "computeCondProbs",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@computeCondProbs#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 183,
+                "name" : "updateParameters",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@updateParameters#"
+            },
+            {
+                "column" : 14,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 210,
+                "name" : "solve(int)",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@solve#I#"
+            },
+            {
+                "column" : 14,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 233,
+                "name" : "solve(int, intMat &, intMat &)",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@solve#I#&$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#S0_#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 257,
+                "name" : "allTrees_i(int)",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@allTrees_i#I#"
+            },
+            {
+                "column" : 8,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 273,
+                "name" : "updateCounts(matrix &, matrix &)",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@updateCounts#&$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#S0_#"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 286,
+                "name" : "errorMeasures(intMat &, intMat &)",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@errorMeasures#&$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#S0_#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 295,
+                "name" : "marginalLogLikelihood",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@marginalLogLikelihood#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 313,
+                "name" : "euclideanDistance(int, intMat &, intMat &)",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@euclideanDistance#I#&$@N@Eigen@C@Matrix>#I#VI-1#VI-1#VI0#VI-1#VI-1#S0_#"
+            },
+            {
+                "column" : 23,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+                "kind" : 7,
+                "line" : 366,
+                "name" : "get_pyz_components(intVec &)",
+                "parent_name" : "MultinomialMixture",
+                "usr" : "c:@C@MultinomialMixture@F@get_pyz_components#&$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#"
+            }
+        ],
+        "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsMultinomial.h",
+        "file_last_write" : 1527820047
+    },
+    {
+        "definitions" : [
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+                "kind" : 8,
+                "line" : 9,
+                "name" : "intMat",
+                "parent_name" : "",
+                "usr" : "c:graph.h@108@T@intMat"
+            },
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+                "kind" : 8,
+                "line" : 10,
+                "name" : "intVec",
+                "parent_name" : "",
+                "usr" : "c:graph.h@141@T@intVec"
+            },
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+                "kind" : 8,
+                "line" : 11,
+                "name" : "matrix",
+                "parent_name" : "",
+                "usr" : "c:graph.h@174@T@matrix"
+            },
+            {
+                "column" : 25,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+                "kind" : 8,
+                "line" : 12,
+                "name" : "vec",
+                "parent_name" : "",
+                "usr" : "c:graph.h@207@T@vec"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+                "kind" : 2,
+                "line" : 14,
+                "name" : "pottsUtility",
+                "parent_name" : "",
+                "usr" : "c:@C@pottsUtility"
+            },
+            {
+                "column" : 23,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+                "kind" : 7,
+                "line" : 37,
+                "name" : "computeSufficientStatistics(intVec &)",
+                "parent_name" : "pottsUtility",
+                "usr" : "c:@C@pottsUtility@F@computeSufficientStatistics#&$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+                "kind" : 7,
+                "line" : 62,
+                "name" : "computeLocalField(int, matrix &, matrix &, intVec &)",
+                "parent_name" : "pottsUtility",
+                "usr" : "c:@C@pottsUtility@F@computeLocalField#I#&$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#S0_#&$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#"
+            },
+            {
+                "column" : 10,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+                "kind" : 7,
+                "line" : 83,
+                "name" : "runif",
+                "parent_name" : "pottsUtility",
+                "usr" : "c:@C@pottsUtility@F@runif#"
+            },
+            {
+                "column" : 7,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+                "kind" : 7,
+                "line" : 87,
+                "name" : "drawMultinomial(vec &)",
+                "parent_name" : "pottsUtility",
+                "usr" : "c:@C@pottsUtility@F@drawMultinomial#&$@N@Eigen@C@Matrix>#d#VI-1#VI1#VI0#VI-1#VI1#"
+            },
+            {
+                "column" : 23,
+                "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+                "kind" : 7,
+                "line" : 103,
+                "name" : "gibbs_Sample(intVec &, int, bool, matrix &, matrix &)",
+                "parent_name" : "pottsUtility",
+                "usr" : "c:@C@pottsUtility@F@gibbs_Sample#&$@N@Eigen@C@Matrix>#I#VI-1#VI1#VI0#VI-1#VI1#I#b#&$@N@Eigen@C@Matrix>#d#VI-1#VI-1#VI0#VI-1#VI-1#S2_#"
+            }
+        ],
+        "file" : "C:/Users/Stephen Berg/Dropbox/Research - Berg/pottsHess/pottsMixture/src/pottsUtility.h",
+        "file_last_write" : 1525993243
+    }
+]

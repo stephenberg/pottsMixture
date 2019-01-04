@@ -1,0 +1,7 @@
+useDynLib(pottsMixture)
+import(RcppEigen)
+import(igraph)
+import(data.table)
+import(Matrix)
+importFrom(Rcpp, evalCpp)
+exportPattern("^[[:alpha:]]+")
