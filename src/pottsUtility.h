@@ -48,7 +48,7 @@ public:
         int iPrime=edgeList.getNeighbor(i,i1);
         if (iPrime>i){
           correlationStatistic(z(i),z(iPrime))+=1;
-          correlationStatistic(z(iPrime),z(i))+=1;
+          correlationStatistic(z(iPrime),z(i))=correlationStatistic(z(i),z(iPrime));
         }
       }
     }

@@ -217,11 +217,6 @@ public:
     return(std::log(sumExp)+max);
   }
 
-
-  //evaluate l_{cv}(theta)=log[sum_{z\in\Omega}p(Z|YTrain,theta)p(YTest|z)]
-  //\approx log[\sum_{i=1}^{nIter}p(YTest|z)/n]
-  //=log[\sum_{i=1}^{nIter}p(YTest|z)]-log(n)
-  //where z comes from p(Z|YTrain,theta)
   Rcpp::List crossValidate(intMat& YTest, int nIter,int nBurn){
     matrix pathInformation;
     pathInformation.setZero(nIter,3);
@@ -255,9 +250,9 @@ public:
     conditionalField2=marginalField+multMixture2.condPotential;
     
     //will hold the cross-validation log probabilities
-    vec logProbsConditional;
+    //vec logProbsConditional;
     vec logProbsMarginal;
-    logProbsConditional.setZero(nIter);
+    //logProbsConditional.setZero(nIter);
     logProbsMarginal.setZero(nIter);
 
     //compute conditional probabilities for
@@ -293,7 +288,7 @@ public:
     
     
     double pathSum=0;
-    double logConditionalAverage=0;
+    //double logConditionalAverage=0;
     if (isCorrelated){
       for (int iteration=0;iteration<nIter;iteration++){
         z_y=pottsModel.gibbs_Sample(z_y,1,false,conditionalField,correlationParameters)[0];
@@ -316,29 +311,25 @@ public:
         double difference=((T_y[1]-T[1]).cast<double>().diagonal().array().sum());
         
         pathSum+=(1.0/nIter)*correlationParameters(0,0)*difference;
-        logProbsConditional(iteration)=computePY_Z(YTest,z_y);
+        //logProbsConditional(iteration)=computePY_Z(YTest,z_y);
         
         if ((iteration % 100)==0){
           Rcout<<"Iteration "<<iteration<<std::endl;
         }
       }
-      logConditionalAverage=logSumExp(logProbsConditional)-log(nIter);
+      //logConditionalAverage=logSumExp(logProbsConditional)-log(nIter);
       // Rcout<<logConditionalAverage<<std::endl;
       // Rcout<<conditionalIndependenceLoglikelihood(YTest);
     }
     else{
-      logConditionalAverage=conditionalIndependenceLoglikelihood(YTest);
+    //   logConditionalAverage=conditionalIndependenceLoglikelihood(YTest);
       multMixture.computeCondProbs();
       frequencies=multMixture.condProbs;
     }
-
-    //Rcout<<"log "<<marginalProbabilities.array().log().sum()<<std::endl;
-    //Rcout<<"min coefficient"<<marginalProbabilities.array().minCoeff()<<std::endl;
     
     double logMarginalAverage=marginalIndependenceLoglikelihood(YTest)+pathSum;
 
-    return Rcpp::List::create(Rcpp::Named("conditionalCVLogLike")=logConditionalAverage,
-                              Rcpp::Named("marginalCVLogLike")=logMarginalAverage,
+    return Rcpp::List::create(Rcpp::Named("marginalCVLogLike")=logMarginalAverage,
                               Rcpp::Named("pathInformation")=pathInformation,
                               Rcpp::Named("pathIntegral")=pathSum,
                               Rcpp::Named("classificationFrequencies")=frequencies);

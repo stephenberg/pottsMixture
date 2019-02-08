@@ -131,7 +131,6 @@ Rcpp::List cv_posteriorPredictive(Eigen::MatrixXi YTrain_,
   mleEstimator.multMixture.pyz=muParameter_;
   mleEstimator.correlationParameters=correlations_;
   mleEstimator.prevalenceParameters=H_;
-  // mleEstimator.crossValidate(YTrain_,nIter_,nBurn_);
-  // return 0;
+  mleEstimator.multMixture.h=H_;
   return mleEstimator.crossValidate(YTest_,nIter_,nBurn_);
 }

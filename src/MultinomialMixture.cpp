@@ -57,22 +57,3 @@ Rcpp::List estimateInitializedMixturewithErrors(Eigen::MatrixXi Y_,
   mixture.h=initialH_;
   return(mixture.solve(nIter_,Y_,Y_test));
 }
-
-
-// 
-// // [[Rcpp::export]]
-// std::vector<Eigen::MatrixXd> estimateInitializedMixture(Eigen::MatrixXi Y_, 
-//                                              int k_, 
-//                                              int nIter_, 
-//                                              Eigen::MatrixXd initialTheta_,
-//                                              Eigen::VectorXd initialH_,
-//                                              int seed_,
-//                                              double alpha_){
-//   MultinomialMixture mixture(Y_,k_,initialH_,initialTheta_,seed_,alpha_);
-//   mixture.solve(nIter_);
-//   
-//   std::vector<Eigen::MatrixXd> parList;
-//   parList.push_back(mixture.logpyz.array().exp());
-//   parList.push_back(mixture.h.array().exp());
-//   return parList;
-// }
